@@ -1,0 +1,5 @@
+#+ endpoint_in_url: False
+SELECT (COUNT(*) AS ?count)
+WHERE {
+  ?s ?p ?o
+}
