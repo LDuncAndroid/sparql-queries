@@ -1,3 +1,4 @@
+#+ endpoint_in_url: False
 #+ endpoint: http://statistics.gov.scot/sparql 
 
 SELECT DISTINCT ?g (count(?p) as ?triples)
