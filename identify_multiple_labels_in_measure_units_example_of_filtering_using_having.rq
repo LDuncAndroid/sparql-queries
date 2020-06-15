@@ -1,4 +1,5 @@
-#+ endpoint_in_url: False
+#+ endpoint: http://statistics.gov.scot/sparql 
+
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?MeasureUnits (count(?MeasureUnits) as ?NumLabels)

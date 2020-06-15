@@ -1,4 +1,3 @@
-#+ endpoint_in_url: False
 #+ endpoint: http://statistics.gov.scot/sparql 
 
 SELECT ?LACode ?LAName ?HigherGeogCode ?HigherGeogName
